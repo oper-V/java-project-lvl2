@@ -18,12 +18,12 @@ application {
     mainClass = 'hexlet.code.App'
 }
 
-//compileJava {
-//  options.release = 8
-//}
-
   compileJava {
   sourceCompatibility = '1.8'
+}
+
+dependencies {
+    implementation 'info.picocli:picocli:4.6.1'
 }
 
 
